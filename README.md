@@ -35,6 +35,9 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (Invoke-GodPotato:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 ```
+
+<br />
+
 This is simply an AMSI-Problem and you have to bypass it **correctly**. Read more at https://s3cur3th1ssh1t.github.io/Powershell-and-the-.NET-AMSI-Interface/. Basically, you just have to patch 
 your current powershell process with:
 ```powershell
